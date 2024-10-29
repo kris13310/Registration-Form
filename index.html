@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter full name" required>
+ 
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter email address" required>
+ 
+            <div class="two-column">
+                <div class="column">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" placeholder="Enter mobile number" required>
+                </div>
+                <div class="column">
+                    <label for="birthdate">Birth Date</label>
+                    <input type="date" id="birthdate" placeholder="mm-dd-yyyy" required>
+                </div>
+            </div>
+ 
+            <label>Gender</label>
+            <div class="gender-options">
+                <label ><input type="radio" name="gender" value="male">Male</label>
+                <label ><input type="radio" name="gender" value="female">Female</label>
+                <label ><input type="radio" name="gender" value="prefer-not-to-say">Prefer not to say</label>
+            </div>
+ 
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Enter address" required>
+ 
+            <div class="two-column">
+                <div class="column">
+                    <label for="country"></label>
+                    <input type="text" id="country" placeholder="Country" required>
+                </div>
+                <div class="column">
+                    <label for="postal"></label>
+                    <input type="text" id="postal" placeholder="Enter postal code" required>
+                </div>
+            </div>
+ 
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

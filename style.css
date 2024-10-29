@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+ 
+.form-container {
+    background-color: white;
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 8px solid blue;
+    text-align: center;
+}
+ 
+h2 {
+    margin-bottom: 1.5em;
+    color: maroon;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+label {
+    text-align: left;
+    font-size: 0.6em;
+    color: gray;
+    margin-bottom: 0.3em;
+    
+    
+}
+ 
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]{
+    padding: 0.75em;
+    font-size: 0.6em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+
+.two-column {
+    display: flex;
+    gap: 1em;
+    text-align: left;
+}
+ 
+.column {
+    flex: 1;
+    width: 10%;
+}
+ 
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 0.5em;
+    
+}
+ 
+.gender-options label {
+    font-size: 0.6em;
+    color: maroon;
+    justify-content: center;
+}
+ 
+.submit-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.75em;
+    font-size: 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+ 
+.submit-btn:hover {
+    background-color: blue;
+}
+ 
